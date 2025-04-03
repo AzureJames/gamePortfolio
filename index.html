@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Azure James Web Portfolio">
+    <meta name="author" content="Azure James">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Roboto+Mono:wght@300;500&display=swap" rel="stylesheet"> 
+    <script src="main.js" defer></script>
+    <title>Azure James</title>
+</head>
+<body>
+    <header>
+        <nav aria-label="top main menu" role="navigation">
+            <div class="inner-nav">
+                <div class="logo"><a href="index.html">Home</a></div>
+                <ul class="nav-links" role="list" aria-label="portfolio-top-nav">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+                <!-- <button aria-expanded="false" name="nav-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button> -->
+            </div>
+        </nav>
+    </header>
+
+    <main class="content">
+
+
+        <section class="Intro" id="home">
+            <div class="flex-md">
+                <div class="p1">
+                    <h1 class="section__title section__title--intro">Azure James</h1>
+                    <p class="section__subtitle section__subtitle--intro subtitle"><span class="subtitle">Game Developer</span></p>
+                </div>
+                    <img src="selfie3.jpg" class="intro-pic" alt="a picture of the website creator smiling">
+            </div>
+        </section>
+
+        <section class="aboutme whereihaveworked" id="aboutme">
+            <div class="welcome-banner">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <div class="header-banner-flex">
+                        <p>I started game development in 2006 on Game Maker 7. From then on, I've always been passionate about games and coding, doing freelancing and getting a diploma in Web Development and Design from NAIT.</p><p>Using technical and design skills from that, I started to seriously pursue game dev in 2023 under the name Pyrano Studios, making the large scale tactical RPG Prismatic: Nox's Gate and other games like Akansi and Taco Doomsday. I primarily use Godot and also do sound design, music, art and animation.</p>
+                        <a href="https://pyranostudios.itch.io/" target="_blank">Itch.io page</a>
+                        <a href="https://store.steampowered.com/app/3529240/Prismatic_Noxs_Gate" target="_blank">Steam Game</a>
+                        <a href="https://opengameart.org/users/pyranostudios" target="_blank">OpenGameArt</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside>
+            <nav class="sidenav" aria-label="side-navigation">
+                <ul role="list">
+                <!-- <li><a href="">Linkedin</a></li> -->
+                <li><a href="https://pyranostudios.itch.io/" target="_blank">Itch.io</a></li>
+                <li><a href="https://opengameart.org/users/pyranostudios" target="_blank">OGA</a></li>
+                </ul>
+            </nav>
+        </aside>
+                
+            <section class="projects" id="projects">
+                <h2>My Work</h2>
+                <div class="project-flex">
+                    <section class="featured-project project">
+                        <a href="https://store.steampowered.com/app/3529240/Prismatic_Noxs_Gate/" target="_blank">
+                        <h3>Prismatic: Nox's Gate</h3>
+                            <img src="LOGOdetailed.png" alt="prismatic logo" style="border: 2px black solid">
+                        <footer>Full-length tactical RPG implementing turn-based combat system with large teams, voice acting, open world sections, and many abilities.</footer>
+                        </a>
+                    </section>
+                    <section class="featured-project project">
+                        <a href="https://www.primevalarpg.com/" target="_blank">
+                        <h3>Primeval Age Web RPG</h3>
+                            <img src="primeval.png" alt="Primeval Age logo">
+                        <footer>Implemented extensions and upgrades to large-scale web game Primeval Age using Laravel framework and Lorekeeper.</footer>
+                        </a>
+                    </section>
+                    <section class="featured-project project">
+                        <!-- <a href=""> -->
+                        <h3>100% Audio Game</h3>
+                            <img src="sounds-terrible.png" alt="sounds terrible logo">
+                        <footer>(in beta) Sounds Terrible is a game for the visually impaired or anyone looking for a unique experience. The name is a pun on the fact that the player is pursued by a terrifying creature that scrapes across the floor. It uses a custom positional audio system to represent the world.</footer>
+                        <!-- </a> -->
+                    </section>
+                    <section class="featured-project project">
+                        <!-- <a href=""> -->
+                        <h3>Infernal Knight</h3>
+                            <img src="hades.png" alt="injured knight">
+                        <footer>I'm a part-time developer at Troupial Studios for their upcoming agility platformer. Implemented the player controller, state machine, environment, and custom platforming mechanics.</footer>
+                        <!-- </a> -->
+                    </section>
+                    <section class="featured-project project">
+                        <a href="https://pyranostudios.itch.io/taco-doomsday" target="_blank">
+                        <h3>Taco Doomsday</h3>
+                            <img src="taco.png" alt="taco chasing player">
+                        <footer>Taco Doomsday is a Backrooms survival/nextbot game where the player investigates endless hallways behind a restaurant while being chased by various food-based monsters!</footer>
+                        </a>
+                    </section>
+                    <section class="featured-project project">
+                        <a href="https://github.com/AzureJames" target="_blank">
+                        <h3>Tools and Websites</h3>
+                            <img src="tools.png" alt="music visualizer">
+                        <footer>I've made multipurpose tools as well-- Rainbow Music Visualizer and Beadworke Pixel Typer (on the Itch.io page) and a number of websites for small businesses using React, HTML/CSS, and Next.js.</footer>
+                        </a>
+                    </section>
+
+<!-- GRID -->
+                    <!-- <div class="container">
+                      <div class="grid-container">
+                        <div class="image384-200">  
+                            1             
+                        </div>
+                        <div class="grid-p-7"><p>codep
+                            Danish caramels jelly beans tiramisu chocolate cake oat cake sugar plum tootsie roll muffin. Cake sweet roll lemon drops. Tiramisu tart caramels. Chupa chups donut cotton candy cheesecake. Oat cake macaroon powder gingerbread wafer halvah. Chupa chups dessert chocolate cake jelly beans jelly wafer tiramisu topping chocolate bar. Wafer sesame snaps icing cookie dragée brownie. </p>
+                        </div>
+                        <div class="grid-p-7"><p>
+                            Dragée pastry soufflé gummi bears. Croissant halvah toffee dessert caramels powder sesame snaps. Dessert dragée chocolate cake. Marzipan soufflé biscuit tiramisu bonbon caramels chocolate topping cupcake. </p>
+                        </div>
+                        <div class="image384-200">   
+                            2            
+                        </div>
+                        <div class="quote">
+                            <span>"Icing caramels sugar plum pudding pie"</span>
+                        </div>
+                        <div class="image384-200">   
+                            3             
+                        </div>
+                        <div class="image684-200"> 
+                            4               
+                        </div>
+                        <div class="grid-p-7"><p>
+                            Icing caramels sugar plum pudding pie bonbon sweet roll. Fruitcake topping chocolate bar jelly brownie liquorice. Candy topping chupa chups. Pudding sweet roll jelly cheesecake halvah sugar plum topping icing. Chocolate sesame snaps gummi bears tootsie roll sesame snaps. Gummi bears gummies danish jelly beans fruitcake jelly-o cookie candy liquorice. Tootsie roll powder pie soufflé candy canes chocolate bar cupcake gummies chocolate.</p>
+                        </div>
+                        <div class="grid-p-7"><p>
+                            Sugar plum pudding pie bonbon sweet roll. Fruitcake topping chocolate bar jelly brownie liquorice. Candy topping chupa chups. Pudding sweet roll jelly cheesecake halvah sugar plum topping icing. Chocolate sesame snaps gummi bears tootsie roll sesame snaps. Gummi bears gummies danish jelly beans fruitcake jelly-o cookie candy liquorice. Tootsie roll powder pie soufflé candy canes chocolate bar cupcake gummies chocolate.</p>
+                        </div>
+                        <div class="image384-300">    
+                            5            
+                        </div>
+                        <div class="grid-footer">   
+                            <p>HOURS: <br> Mon Tues Weds Thurs Fri Sat Sun</p>
+                        </div>
+                        <div class="narrower">   
+                            <p>LOCATION: <br> 123304 Privet Dr Little Langshire UK </p>
+                        </div>
+                        <div class="grid-footer">   <p>
+                            <p>CONTACT <br> 263-3784-2847 Send Mail to Mailing Address </p>
+                        </div>
+                    
+                      </div>
+                    </div>
+                    -->
+
+        <div class="center-container">        
+            <section id="contact-me">
+                <h2>Contact Me</h2>
+                <p>My inbox is always open in case you have any questions, offers, or projects!</p>
+                <div class="flex-sm ai-c">
+                    <a href="mailto:azuregallagher@gmail.com">azuregallagher@gmail.com</a> 
+                    <a href="tel:+7168449076">716-844-9076</a>
+                    <!-- <a href="">Say Hello on Linkedin</a> -->
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
